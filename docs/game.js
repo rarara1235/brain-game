@@ -347,9 +347,6 @@
           <h2 class="h-title flex items-center gap-2">
             ルール説明
           </h2>
-          <button data-action="close-rules" class="icon-ghost" aria-label="閉じる">
-            ${icon('X')}
-          </button>
         </div>
 
         <div class="space-y-3 text-slate-700">
@@ -593,7 +590,7 @@
             `
             : state.gameState === 'input'
               ? `
-                <div class="w-full space-y-5">
+                <div class="input-area w-full space-y-5">
                   <div class="text-center space-y-2">
                     <h2 class="text-base font-extrabold text-slate-700">逆順で入力</h2>
 
@@ -646,7 +643,7 @@
           <span class="font-extrabold">終了</span>
         </button>
 
-        <div class="flex justify-between items-center mb-6 relative z-10">
+        <div class="game-header flex justify-between items-center mb-6 relative z-10">
           <div class="w-[64px]"></div>
           <div class="flex items-center gap-2">
             <div class="chip">Level ${state.digitCount}</div>
