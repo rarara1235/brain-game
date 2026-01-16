@@ -15,8 +15,8 @@
   const state = {
     soundEnabled: true,
     gameState: 'setup',
-    gameDuration: 300,
-    timeLeft: 300,
+    gameDuration: 180,
+    timeLeft: 180,
     digitCount: 3,
     nextLevel: 3,
     sequence: [],
